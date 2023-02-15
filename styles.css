@@ -116,6 +116,9 @@ nav{
     margin: 0 12px;
     font-weight: bold;
 }
+.personal__logo--img{
+    height: 20px;
+}
 section:nth-child(even){ /*joka toinen*/
     background-color: #f8f8f8;
 }
@@ -187,7 +190,7 @@ section:nth-child(even){ /*joka toinen*/
 
 /* ----- SKILLS -----*/
 .skills__container {
-    margin-top: 20px;
+    margin: 20px;
     text-align: center;
   }
 
@@ -332,3 +335,29 @@ footer{
       
     }
     
+/* PHONES */
+@media (max-width: 480px) {
+    .nav__link:not(:last-child) {
+      display: none;
+    }
+  
+    .education__wrapper{
+        display: flex;
+
+      }
+      .education__description {
+       display: flex;
+       justify-content: center;
+      }
+      .education__description--title{
+       font-size: 14px;
+       display: flex;
+       justify-content: flex-start;
+
+      }
+      .education__description--subtitle{
+        font-size: 12px;
+        display: flex;
+ 
+       }
+  }
