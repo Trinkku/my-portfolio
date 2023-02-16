@@ -360,4 +360,8 @@ footer{
         display: flex;
  
        }
+       .about-me__img--container{
+        display: flex;
+        flex-direction: column;
+       }
   }
