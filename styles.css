@@ -233,10 +233,15 @@ section:nth-child(even){ /*joka toinen*/
 }
 .education__wrapper{
     display: flex;
-    position: relative;
-    border-radius: 20px;
+    justify-content: center;    
+    border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(14, 36, 49, 0.3);
-    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px 15px;
+    margin: 10px 4px; 
+
 
 }
 .education__list{
@@ -340,28 +345,17 @@ footer{
     .nav__link:not(:last-child) {
       display: none;
     }
-  
+    .education__list{
+        width: 100%;
+    }
     .education__wrapper{
         display: flex;
 
-      }
-      .education__description {
-       display: flex;
-       justify-content: center;
-      }
-      .education__description--title{
-       font-size: 14px;
-       display: flex;
-       justify-content: flex-start;
-
-      }
-      .education__description--subtitle{
-        font-size: 12px;
-        display: flex;
- 
-       }
-       .about-me__img--container{
+    }
+    
+    .about-me__img--container{
         display: flex;
         flex-direction: column;
-       }
+    }
+  
   }
