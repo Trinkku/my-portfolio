@@ -227,6 +227,21 @@ section:nth-child(even){ /*joka toinen*/
     width: 50%;
     
 }
+.skills__js{
+    width: 60%;
+}
+.skills__native{
+    width: 50%;
+}
+.skills__c{
+    width: 30%;
+}
+.skills__java{
+    width: 30%;
+}
+.skills__react{
+    width: 60%;
+}
 /*----- EDUCATION ---- */
 .education__container{
     text-align: center;
