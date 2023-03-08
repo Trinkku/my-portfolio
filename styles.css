@@ -219,28 +219,30 @@ section:nth-child(even){ /*joka toinen*/
     height: 4px;
     border-radius: 8px;
   }
-.skills__html{
-    width: 50%;
-    
+  .skills__html{
+    width: 70%;   
 }
 .skills__css{
-    width: 60%;
+    width: 70%;
     
 }
 .skills__js{
-    width: 60%;
+    width: 70%;
 }
 .skills__native{
-    width: 50%;
+    width: 60%;
 }
-.skills__c{
+.skills__python{
     width: 30%;
 }
 .skills__java{
-    width: 30%;
+    width: 40%;
 }
 .skills__react{
-    width: 60%;
+    width: 70%;
+}
+.skills__sql{
+    width: 50%;
 }
 /*----- EDUCATION ---- */
 .education__container{
